@@ -2,7 +2,7 @@ package server.entity;
 
 import javax.persistence.*;
 
-@Entity
+@MappedSuperclass
 public abstract class Person {
 
     @Id

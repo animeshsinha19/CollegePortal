@@ -2,8 +2,10 @@ package server.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
+@Entity
 @Table(name = "Instructor")
 public class Instructor extends Person {
 
