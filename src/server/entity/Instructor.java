@@ -4,9 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 
 @Table(name = "Instructor")
-public class Instructor {
+public class Instructor extends Person {
 
-    @Column(name = "instructorid")
+    @Column(name = "INSTRUCTORID")
     private long instructorId;
 
     public long getInstructorId() {
@@ -16,4 +16,6 @@ public class Instructor {
     public void setInstructorId(long instructorId) {
         this.instructorId = instructorId;
     }
+
+
 }
