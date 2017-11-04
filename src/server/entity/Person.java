@@ -18,4 +18,28 @@ public abstract class Person {
 
     @Column(name = "emailuniversity")
     private String emailUniversity;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmailPersonal() {
+        return emailPersonal;
+    }
+
+    public void setEmailPersonal(String emailPersonal) {
+        this.emailPersonal = emailPersonal;
+    }
+
+    public String getEmailUniversity() {
+        return emailUniversity;
+    }
+
+    public void setEmailUniversity(String emailUniversity) {
+        this.emailUniversity = emailUniversity;
+    }
 }
