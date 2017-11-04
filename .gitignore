@@ -1,0 +1,13 @@
+# gitignore for problem 1 of HW4
+
+# Compiled class files
+/*.class
+
+# IntellJ .idea directory
+/.idea
+
+# Output directory with class files
+/out
+
+# Iml file
+/*.iml
